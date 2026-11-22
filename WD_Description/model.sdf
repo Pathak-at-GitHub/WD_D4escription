@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="WD_Description">
+    <!-- Frame = SolidWorks assembly frame (Y up, metres). Mesh scale 0.001 (STL in mm). -->
+    <link name="body4">
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-5.35726498e-11 0.0376035441 -5.41298831e-07 0 0 0</pose>
+        <mass>0.00599477582</mass>
+        <inertia>
+          <ixx>3.7566626e-06</ixx><ixy>-2.00915553e-18</ixy><ixz>9.38393694e-13</ixz>
+          <iyy>3.63007525e-06</iyy><iyz>1.49544715e-12</iyz><izz>3.34189467e-07</izz>
+        </inertia>
+      </inertial>
+      <visual name="body4_visual">
+        <pose>-0.0095 0 -0.03932 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/body4.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.75 0.75 0.8 1</ambient><diffuse>0.75 0.75 0.8 1</diffuse></material>
+      </visual>
+      <collision name="body4_collision">
+        <pose>-0.0095 0 -0.03932 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/body4.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+      </collision>
+    </link>
+    <link name="body3_1">
+      <pose>-3.94769898e-17 0.000872664158 -0.0644889771 1.59785879 -1.30187378e-15 -1.78228527e-15</pose>
+      <inertial>
+        <pose>-2.05857143e-06 -0.0124552078 -0.0289064389 0 0 0</pose>
+        <mass>0.0068739087</mass>
+        <inertia>
+          <ixx>7.21689693e-06</ixx><ixy>-1.83404824e-10</ixy><ixz>2.71242084e-10</ixz>
+          <iyy>9.10889407e-06</iyy><iyz>2.01679653e-06</iyz><izz>1.3285316e-05</izz>
+        </inertia>
+      </inertial>
+      <visual name="body3_1_visual">
+        <pose>-0.05276 -0.04978 -0.04949 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/body3.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.75 0.75 0.8 1</ambient><diffuse>0.75 0.75 0.8 1</diffuse></material>
+      </visual>
+      <collision name="body3_1_collision">
+        <pose>-0.05276 -0.04978 -0.04949 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/body3.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+      </collision>
+    </link>
+    <link name="body3_2">
+      <pose>-4.0377249e-17 0.00346346545 0.0667614469 -1.46713267 3.32634147e-16 3.14159265</pose>
+      <inertial>
+        <pose>-2.05857143e-06 -0.0124552078 -0.0289064389 0 0 0</pose>
+        <mass>0.0068739087</mass>
+        <inertia>
+          <ixx>7.21689693e-06</ixx><ixy>-1.83404824e-10</ixy><ixz>2.71242084e-10</ixz>
+          <iyy>9.10889407e-06</iyy><iyz>2.01679653e-06</iyz><izz>1.3285316e-05</izz>
+        </inertia>
+      </inertial>
+      <visual name="body3_2_visual">
+        <pose>-0.05276 -0.04978 -0.04949 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/body3.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.75 0.75 0.8 1</ambient><diffuse>0.75 0.75 0.8 1</diffuse></material>
+      </visual>
+      <collision name="body3_2_collision">
+        <pose>-0.05276 -0.04978 -0.04949 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/body3.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+      </collision>
+    </link>
+    <link name="motor_1">
+      <pose>0.0462558335 0.0411705022 -0.0987264404 -2.42728233 -0.177159659 2.98996128</pose>
+      <inertial>
+        <pose>3.41157998e-10 1.11299708e-05 2.64288179e-07 0 0 0</pose>
+        <mass>0.00117739288</mass>
+        <inertia>
+          <ixx>4.46401068e-08</ixx><ixy>4.46962908e-18</ixy><ixz>-2.24873798e-16</ixz>
+          <iyy>1.05853986e-08</iyy><iyz>3.46332379e-15</iyz><izz>4.4638792e-08</izz>
+        </inertia>
+      </inertial>
+      <visual name="motor_1_visual">
+        <pose>-0.035 -0.01 -0.035 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/motor_coreless.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.2 0.2 0.22 1</ambient><diffuse>0.2 0.2 0.22 1</diffuse></material>
+      </visual>
+      <collision name="motor_1_collision">
+        <pose>-0.035 -0.01 -0.035 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/motor_coreless.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+      </collision>
+    </link>
+    <link name="motor_2">
+      <pose>-0.0462558335 0.0411705022 -0.0987264404 -2.42728233 -0.177159659 2.98996128</pose>
+      <inertial>
+        <pose>3.41157998e-10 1.11299708e-05 2.64288179e-07 0 0 0</pose>
+        <mass>0.00117739288</mass>
+        <inertia>
+          <ixx>4.46401068e-08</ixx><ixy>4.46962908e-18</ixy><ixz>-2.24873798e-16</ixz>
+          <iyy>1.05853986e-08</iyy><iyz>3.46332379e-15</iyz><izz>4.4638792e-08</izz>
+        </inertia>
+      </inertial>
+      <visual name="motor_2_visual">
+        <pose>-0.035 -0.01 -0.035 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/motor_coreless.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.2 0.2 0.22 1</ambient><diffuse>0.2 0.2 0.22 1</diffuse></material>
+      </visual>
+      <collision name="motor_2_collision">
+        <pose>-0.035 -0.01 -0.035 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/motor_coreless.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+      </collision>
+    </link>
+    <link name="motor_3">
+      <pose>0.0462558335 0.0462631991 0.0978146665 0.825794281 0.651635954 0.581684831</pose>
+      <inertial>
+        <pose>3.41157998e-10 1.11299708e-05 2.64288179e-07 0 0 0</pose>
+        <mass>0.00117739288</mass>
+        <inertia>
+          <ixx>4.46401068e-08</ixx><ixy>4.46962908e-18</ixy><ixz>-2.24873798e-16</ixz>
+          <iyy>1.05853986e-08</iyy><iyz>3.46332379e-15</iyz><izz>4.4638792e-08</izz>
+        </inertia>
+      </inertial>
+      <visual name="motor_3_visual">
+        <pose>-0.035 -0.01 -0.035 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/motor_coreless.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.2 0.2 0.22 1</ambient><diffuse>0.2 0.2 0.22 1</diffuse></material>
+      </visual>
+      <collision name="motor_3_collision">
+        <pose>-0.035 -0.01 -0.035 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/motor_coreless.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+      </collision>
+    </link>
+    <link name="motor_4">
+      <pose>-0.0462558335 0.0462631991 0.0978146665 0.694403312 0.419418619 0.326955646</pose>
+      <inertial>
+        <pose>3.41157998e-10 1.11299708e-05 2.64288179e-07 0 0 0</pose>
+        <mass>0.00117739288</mass>
+        <inertia>
+          <ixx>4.46401068e-08</ixx><ixy>4.46962908e-18</ixy><ixz>-2.24873798e-16</ixz>
+          <iyy>1.05853986e-08</iyy><iyz>3.46332379e-15</iyz><izz>4.4638792e-08</izz>
+        </inertia>
+      </inertial>
+      <visual name="motor_4_visual">
+        <pose>-0.035 -0.01 -0.035 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/motor_coreless.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.2 0.2 0.22 1</ambient><diffuse>0.2 0.2 0.22 1</diffuse></material>
+      </visual>
+      <collision name="motor_4_collision">
+        <pose>-0.035 -0.01 -0.035 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/motor_coreless.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+      </collision>
+    </link>
+    <link name="blade_1">
+      <pose>0.0462558335 0.0434902186 -0.100683556 1.594515 -0.869740987 1.53976167</pose>
+      <inertial>
+        <pose>-8.91750219e-07 -0.00987571591 1.01134119e-05 0 0 0</pose>
+        <mass>0.000344926323</mass>
+        <inertia>
+          <ixx>1.22975502e-07</ixx><ixy>-5.69529775e-15</ixy><ixz>-1.49647673e-10</ixz>
+          <iyy>1.23943923e-07</iyy><iyz>2.12470373e-14</iyz><izz>1.42194164e-09</izz>
+        </inertia>
+      </inertial>
+      <visual name="blade_1_visual">
+        <pose>-0.0053 -0.0115 -0.04 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/blade_cw.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.3 0.8 0.3 1</ambient><diffuse>0.3 0.8 0.3 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="blade_2">
+      <pose>-0.0462558335 0.0434903638 -0.100683679 2.39303706 0.325506685 -0.28875056</pose>
+      <inertial>
+        <pose>-9.2741185e-07 -0.00987711041 1.01136174e-05 0 0 0</pose>
+        <mass>0.000345138614</mass>
+        <inertia>
+          <ixx>1.22944573e-07</ixx><ixy>5.70001095e-15</ixy><ixz>1.79012401e-10</ixz>
+          <iyy>1.23912518e-07</iyy><iyz>2.10517522e-14</iyz><izz>1.42086291e-09</izz>
+        </inertia>
+      </inertial>
+      <visual name="blade_2_visual">
+        <pose>-0.0053 -0.0115 -0.04 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/blade_ccw.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.3 0.8 0.3 1</ambient><diffuse>0.3 0.8 0.3 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="blade_3">
+      <pose>0.0462558335 0.0487260381 0.099588635 -2.11005944 -0.821502733 -0.885574224</pose>
+      <inertial>
+        <pose>-9.2741185e-07 -0.00987711041 1.01136174e-05 0 0 0</pose>
+        <mass>0.000345138614</mass>
+        <inertia>
+          <ixx>1.22944573e-07</ixx><ixy>5.70001095e-15</ixy><ixz>1.79012401e-10</ixz>
+          <iyy>1.23912518e-07</iyy><iyz>2.10517522e-14</iyz><izz>1.42086291e-09</izz>
+        </inertia>
+      </inertial>
+      <visual name="blade_3_visual">
+        <pose>-0.0053 -0.0115 -0.04 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/blade_ccw.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.3 0.8 0.3 1</ambient><diffuse>0.3 0.8 0.3 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="blade_4">
+      <pose>-0.0462558335 0.0487258839 0.099588524 -2.16914556 -0.785050312 -0.803504388</pose>
+      <inertial>
+        <pose>-8.91750219e-07 -0.00987571591 1.01134119e-05 0 0 0</pose>
+        <mass>0.000344926323</mass>
+        <inertia>
+          <ixx>1.22975502e-07</ixx><ixy>-5.69529775e-15</ixy><ixz>-1.49647673e-10</ixz>
+          <iyy>1.23943923e-07</iyy><iyz>2.12470373e-14</iyz><izz>1.42194164e-09</izz>
+        </inertia>
+      </inertial>
+      <visual name="blade_4_visual">
+        <pose>-0.0053 -0.0115 -0.04 0 0 0</pose>
+        <geometry><mesh><uri>model://WD_Description/meshes/blade_cw.stl</uri><scale>0.001 0.001 0.001</scale></mesh></geometry>
+        <material><ambient>0.3 0.8 0.3 1</ambient><diffuse>0.3 0.8 0.3 1</diffuse></material>
+      </visual>
+    </link>
+
+    <!-- Rigid connections (mates: coincident + concentric with rotation locked) -->
+    <joint name="body4_to_body3_1" type="fixed"><parent>body4</parent><child>body3_1</child></joint>
+    <joint name="body4_to_body3_2" type="fixed"><parent>body4</parent><child>body3_2</child></joint>
+    <joint name="body3_1_to_motor_1" type="fixed"><parent>body3_1</parent><child>motor_1</child></joint>
+    <joint name="body3_1_to_motor_2" type="fixed"><parent>body3_1</parent><child>motor_2</child></joint>
+    <joint name="body3_2_to_motor_3" type="fixed"><parent>body3_2</parent><child>motor_3</child></joint>
+    <joint name="body3_2_to_motor_4" type="fixed"><parent>body3_2</parent><child>motor_4</child></joint>
+
+    <!-- Rotors: concentric mate without rotation lock -> free revolute about the shared axis (child-frame Y) -->
+    <joint name="rotor_1_joint" type="revolute">
+      <parent>motor_1</parent><child>blade_1</child>
+      <axis><xyz>0 1 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit><dynamics><damping>1e-6</damping></dynamics></axis>
+    </joint>
+    <joint name="rotor_2_joint" type="revolute">
+      <parent>motor_2</parent><child>blade_2</child>
+      <axis><xyz>0 1 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit><dynamics><damping>1e-6</damping></dynamics></axis>
+    </joint>
+    <joint name="rotor_3_joint" type="revolute">
+      <parent>motor_3</parent><child>blade_3</child>
+      <axis><xyz>0 1 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit><dynamics><damping>1e-6</damping></dynamics></axis>
+    </joint>
+    <joint name="rotor_4_joint" type="revolute">
+      <parent>motor_4</parent><child>blade_4</child>
+      <axis><xyz>0 1 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit><dynamics><damping>1e-6</damping></dynamics></axis>
+    </joint>
+
+    <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher"/>
+    <plugin filename="gz-sim-joint-controller-system" name="gz::sim::systems::JointController">
+      <joint_name>rotor_1_joint</joint_name><topic>/wd/rotor_1/cmd_vel</topic><use_force_commands>false</use_force_commands>
+    </plugin>
+    <plugin filename="gz-sim-joint-controller-system" name="gz::sim::systems::JointController">
+      <joint_name>rotor_2_joint</joint_name><topic>/wd/rotor_2/cmd_vel</topic><use_force_commands>false</use_force_commands>
+    </plugin>
+    <plugin filename="gz-sim-joint-controller-system" name="gz::sim::systems::JointController">
+      <joint_name>rotor_3_joint</joint_name><topic>/wd/rotor_3/cmd_vel</topic><use_force_commands>false</use_force_commands>
+    </plugin>
+    <plugin filename="gz-sim-joint-controller-system" name="gz::sim::systems::JointController">
+      <joint_name>rotor_4_joint</joint_name><topic>/wd/rotor_4/cmd_vel</topic><use_force_commands>false</use_force_commands>
+    </plugin>
+  </model>
+</sdf>
